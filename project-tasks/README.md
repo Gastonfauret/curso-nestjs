@@ -1,14 +1,18 @@
-# curso-nestjs
-
 Instalacion de Nest.js:
 npm i @nestjs/cli -g
+
+instalacion de paquete uuid:
+npm i uuid
+
+Instalacion de paquete de validacion de npm:
+npm i --save class-validator class-transformer
 
 Creacion de Nuevo Proyecto:
 nest new project-taks
 Luego seleccionar npm.
 
 Iniciar proyecto en modo observador:
-npm run start run:dev
+npm run start:dev
 
 Creacion de Modulos por comando:
 nest generate module tasks (va a crear un modulo dentro de una carpeta tasks).
